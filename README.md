@@ -18,7 +18,6 @@ The board is powered through the RB connectors bringing in ~9V which is then sen
 <br>
 <br>
 ## Versions
-***
 ### v1.0
 Modifications needed on physical board:
 * Regultor has an addd 100ohm resistor to have a constant load even when MUX64 is not connected (This change helps the regulator maintain a 1.2V otput at all times)\
