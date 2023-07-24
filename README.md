@@ -17,11 +17,11 @@ Test signals would be inputs to the screw terminals. Their traces are then conne
 The board is powered through the RB connectors bringing in ~9V which is then sent through a voltage regulator to convert into 1.2V which is then used to power the MUX64 chip. There is also a voltage reference for ~0.6V that is sent to a  MUX64 input, analog input on the RB connector, and is a test-point on the board.
 
 ### v1.0
-Modifications made to physical board:
+Modifications needed on physical board:
 * Regultor has an addd 100ohm resistor to have a constant load even when MUX64 is not connected (This change helps the regulator maintain a 1.2V otput at all times)\
 &nbsp; &nbsp; &nbsp; &nbsp; ![image info](Mux64_Testboard/Documents/reg1v0.jpg)
 * A trace that started from the output of voltage divider was removed and reconnected to the input of the voltage divider. Also pins 5 and 6 of voltage regulator were shorted together (This changed the voltage refrence to now output ~0.6V and not 1.2V because the MUX64 and RB can only read voltages from 0-2V)
 
 ### v1.5
-* updated physical fixes that were made after ordering first batch to new pcb layout and schematic
+* updated physical fixes that were made after ordering first batch to be on new pcb layout and schematic\
 &nbsp; &nbsp; &nbsp; &nbsp; ![image info](Mux64_Testboard/Documents/pcbLayout.png)
