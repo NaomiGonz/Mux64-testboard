@@ -339,6 +339,7 @@
     )
   )
 
+
   (junction (at 99.06 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 01d8cfec-0d44-41d3-91e8-b2fdcc83b61c)
   )
@@ -4083,6 +4084,9 @@
     )
     (path "/91a9abc3-7cd3-42a2-b8f1-7970bc77b6c3/45fe765d-a310-4d3b-b511-124f76736a96"
       (reference "R23") (unit 1) (value "1Kohm") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/91a9abc3-7cd3-42a2-b8f1-7970bc77b6c3/efd36d14-f11f-4cac-a1f8-4687b197054e"
+      (reference "R24") (unit 1) (value "1Kohm") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/91a9abc3-7cd3-42a2-b8f1-7970bc77b6c3/b43b5cc7-19b3-4fa5-b538-a4d862fc3c5b/35f10ede-2d78-4882-b6b4-ba91cbf61a1b"
       (reference "R27") (unit 1) (value "240Kohm") (footprint "Resistor_SMD:R_0805_2012Metric")
