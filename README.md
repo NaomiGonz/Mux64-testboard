@@ -19,5 +19,5 @@ The board is powered through the RB connectors bringing in ~9V which is then sen
 ### v1.0
 Modifications made to physical board:
 * Regultor has an addd 100ohm resistor to have a constant load even when MUX64 is not connected (This change helps the regulator maintain a 1.2V otput at all times)
-  ![image info](Mux64_Testboard/Documents/reg1v0.png)
+  ![image info](Mux64_Testboard/Documents/reg1v0.jpg)
 * A trace that started from the output of voltage divider was removed and reconnected to the input of the voltage divider. Also pins 5 and 6 of voltage regulator were shorted together (This changed the voltage refrence to now output ~0.6V and not 1.2V because the MUX64 and RB can only read voltages from 0-2V) 
